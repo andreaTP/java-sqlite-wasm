@@ -8,11 +8,6 @@ public class SQLiteTest {
     public void basicTest() {
         var sqlite = new SQLite();
 
-//        var dbPtr = sqlite.allocDbPtr();
-//        var dbName = sqlite.allocateString(":memory:");
-//        var vfsName = sqlite.allocateString("");
-//
-//        sqlite.openDb(dbPtr, dbName, vfsName);
-        sqlite.demoOpenDB();
+        sqlite.demo();
     }
 }
